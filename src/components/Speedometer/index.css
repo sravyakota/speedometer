@@ -1,0 +1,67 @@
+/* Write your CSS here */
+.bg {
+  background-color: #07080c;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #ffffff;
+  font-size: 42px;
+  font-family: 'roboto';
+  font-weight: bold;
+}
+.heading2 {
+  color: #ffffff;
+  font-size: 26px;
+  font-family: 'roboto';
+  font-weight: bold;
+}
+.paragraph {
+  color: #ffffff;
+  font-size: 22px;
+  font-family: 'roboto';
+}
+.image {
+  width: 600px;
+  height: 300px;
+}
+.count {
+  font-family: 'roboto';
+  color: #ffffff;
+  font-size: 22px;
+}
+.buttonsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.button1 {
+  color: #ffffff;
+  width: 120px;
+  height: 32px;
+  border-radius: 10px;
+  background-color: #0b69ff;
+  font-size: 16px;
+  font-family: 'roboto';
+  border-width: 0px;
+  margin: 10px;
+  cursor: pointer;
+}
+.button2 {
+  width: 120px;
+  color: #94a3b8;
+  height: 32px;
+  border-radius: 10px;
+  background-color: transparent;
+  font-size: 16px;
+  font-family: 'roboto';
+  border-width: 2px;
+  border-style: solid;
+  border-color: #cbd5e1;
+  margin: 10px;
+  cursor: pointer;
+}
